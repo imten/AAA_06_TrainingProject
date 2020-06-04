@@ -66,7 +66,7 @@ server:
     uri-encoding: UTF-8
     max-threads: 1000
     min-spare-threads: 30
-  port: 443
+  port: 4433
   connection-timeout: 5000ms
   servlet:
     context-path: /
@@ -76,4 +76,4 @@ server:
     keyStoreType: PKCS12
 
 http:
-  port: 80
+  port: 8080
